@@ -61,7 +61,7 @@ nav li a{
 }
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .team-container{
     display: flex;
@@ -87,6 +87,10 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
+.team-para{
+    color: var(--dark-03, #727272);
+    font-weight: 400;
+}
 
 
 
@@ -94,8 +98,15 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .team-container{
         flex-direction: column;
+    }
+    .team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-container{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -103,7 +114,7 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .team-container{
         flex-direction: column;
     }
 }
