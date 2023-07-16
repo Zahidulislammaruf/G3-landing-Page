@@ -59,6 +59,34 @@ nav li a{
     margin-top: 20px;
     width: 100%;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-info{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.team-tittle{
+    font-size: 2.75rem;
+}
+.team-tittle .quick-list{
+    color: var(--dark-03, #727272);
+    font-weight: 500;
+}
+.team-tittle .text-features{
+    color: #FF900E;
+    font-weight: 700;
+}
 
 
 
